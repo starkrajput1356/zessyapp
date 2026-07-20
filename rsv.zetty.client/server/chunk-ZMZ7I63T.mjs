@@ -1,2 +1,0 @@
-import './polyfills.server.mjs';
-var e={production:!1,apiUrl:"https://zetsy.runasp.net",emailjs:{publicKey:"aufjVn4Fu2VdkI5wm",serviceId:"service_jatr29a",templateId:"template_z4tsw4r",autoReplyTemplateId:"template_z4tsw4r"}};export{e as a};
