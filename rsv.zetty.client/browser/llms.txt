@@ -5,15 +5,27 @@
 ZetsApp helps businesses **build**, **buy**, and **compare** software:
 - Custom software development (web & mobile apps)
 - AI & machine learning services (LLM apps, AI agents, RAG pipelines)
+- AI automation for business workflows and processes
 - SaaS products ready to adopt today
 - A searchable directory of business software (CRM, HR, security, AI, collaboration, and more)
 
 ## Services
-- [Custom Software & AI Services](https://www.zetsapp.com/): End-to-end product engineering, AI integration, and SaaS delivery.
+- [All Services](https://www.zetsapp.com/services): Overview of every ZetsApp development service.
+- [Custom Software Development](https://www.zetsapp.com/services/custom-software-development): Bespoke software built around unique business workflows.
+- [AI Development Services](https://www.zetsapp.com/services/ai-development): LLM apps, AI agents, RAG pipelines, and machine learning.
+- [AI Automation Services](https://www.zetsapp.com/services/ai-automation): Workflow automation, AI agents, and business process automation.
+- [Web App Development](https://www.zetsapp.com/services/web-app-development): Fast, SEO-friendly web applications.
+- [Mobile App Development](https://www.zetsapp.com/services/mobile-app-development): iOS and Android apps.
+- [SaaS Products](https://www.zetsapp.com/services/saas-products): Ready-to-deploy business software.
 - [Contact / Hire Us](https://www.zetsapp.com/home/contact): Start a project or request a quote.
 
 ## Software Directory
-- [Browse all software](https://www.zetsapp.com/software): Compare products by category, pricing, deployment, and reviews.
+- [Browse all software](https://www.zetsapp.com/software): 110+ ZetsApp business software products — compare by category, pricing, deployment, and reviews.
+- [AI Software](https://www.zetsapp.com/software?category=artificial-intelligence): AI writing, chatbots, image generation, and LLM platforms.
+- [HR Software](https://www.zetsapp.com/software?category=hr-software)
+- [CRM Software](https://www.zetsapp.com/software?category=crm)
+- [ERP Software](https://www.zetsapp.com/software?category=erp): Including Volaxin maritime ERP and ChartExec chartering.
+- [Education Software](https://www.zetsapp.com/software?category=education): Including EduCare School ERP.
 - [Web Apps](https://www.zetsapp.com/home/web-apps)
 - [Mobile Apps](https://www.zetsapp.com/home/mobile-apps)
 
