@@ -1,6 +1,6 @@
 # OG Cover Image Prompt
 
-`og-cover.png` — referenced by index.html, home page, blog fallback, and the SEO service as the default social-share image. Place the generated file at `src/assets/og-cover.png`.
+`og-cover.webp` — referenced by index.html, home page, blog fallback, and the SEO service as the default social-share image. Place the generated file at `src/assets/og-cover.webp`.
 
 **Size: exactly 1200×630 px (PNG).** Keep all text within the central 1000×524 safe area (edges get cropped on some platforms).
 
