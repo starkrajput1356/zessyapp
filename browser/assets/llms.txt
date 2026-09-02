@@ -9,15 +9,29 @@ ZetsApp helps businesses **build**, **buy**, and **compare** software:
 - SaaS products ready to adopt today
 - A searchable directory of business software (CRM, HR, security, AI, collaboration, and more)
 
+## About
+- [About ZetsApp](https://www.zetsapp.com/about): Who we are, how we ship, and where we work — company positioning, engineering process, and compliance posture (GDPR, HIPAA, SOC 2).
+
 ## Services
 - [All Services](https://www.zetsapp.com/services): Overview of every ZetsApp development service.
 - [Custom Software Development](https://www.zetsapp.com/services/custom-software-development): Bespoke software built around unique business workflows.
 - [AI Development Services](https://www.zetsapp.com/services/ai-development): LLM apps, AI agents, RAG pipelines, and machine learning.
 - [AI Automation Services](https://www.zetsapp.com/services/ai-automation): Workflow automation, AI agents, and business process automation.
+- [RAG Development](https://www.zetsapp.com/services/rag-development): Custom Retrieval-Augmented Generation systems with GDPR-safe deployment.
+- [Full-Stack Development](https://www.zetsapp.com/services/full-stack-development): End-to-end web and mobile engineering across MERN, MEAN, .NET, Django, Rails.
 - [Web App Development](https://www.zetsapp.com/services/web-app-development): Fast, SEO-friendly web applications.
+- [Website Development](https://www.zetsapp.com/services/website-development): Custom marketing and business websites.
 - [Mobile App Development](https://www.zetsapp.com/services/mobile-app-development): iOS and Android apps.
 - [SaaS Products](https://www.zetsapp.com/services/saas-products): Ready-to-deploy business software.
+- [Hire Developers in Dubai](https://www.zetsapp.com/services/hire-developers-dubai): Full-stack, AI, RAG, and mobile engineers for UAE clients.
+- [Hire Developers in the UK](https://www.zetsapp.com/services/hire-developers-uk): GDPR-safe, IR35-friendly developers for UK and EU clients.
+- [Hire Developers in the USA](https://www.zetsapp.com/services/hire-developers-usa): HIPAA / SOC 2-aware developers for US clients with USD invoicing.
 - [Contact / Hire Us](https://www.zetsapp.com/home/contact): Start a project or request a quote.
+
+## Regional Presence
+- [Software Development in Dubai / UAE](https://www.zetsapp.com/locations/dubai): DIFC / DMCC / IFZA-friendly, UAE-hour delivery, AED or USD invoicing.
+- [Software Development in London / UK / EU](https://www.zetsapp.com/locations/london): GDPR-safe, EU-region hosting, IR35-friendly contracting.
+- [Custom Software Development in the USA](https://www.zetsapp.com/locations/united-states): HIPAA and SOC 2-aware, US-hour overlap, W-9 supplier, USD invoicing.
 
 ## Software Directory
 - [Browse all software](https://www.zetsapp.com/software): 110+ ZetsApp business software products — compare by category, pricing, deployment, and reviews.
@@ -34,6 +48,14 @@ ZetsApp helps businesses **build**, **buy**, and **compare** software:
 
 ## Engineering Blog
 - [Blog](https://www.zetsapp.com/home/blogs): Deep technical guides on AI, LLMs, system design, databases, networking, and software architecture.
+- [RAG vs Fine-Tuning: Which Is Right for Your Enterprise LLM App?](https://www.zetsapp.com/blogs/rag-vs-fine-tuning-enterprise-llm)
+- [Custom Software Development Cost in Dubai (2026 Guide)](https://www.zetsapp.com/blogs/custom-software-development-cost-dubai-2026)
+- [GDPR-Compliant AI Development: A Practitioner's Checklist for EU Teams](https://www.zetsapp.com/blogs/gdpr-compliant-ai-development-checklist)
+- [How to Hire a Full-Stack Development Company: 12-Point Vendor Checklist](https://www.zetsapp.com/blogs/hire-full-stack-development-company-checklist)
+- [AI Automation for Small Business: 9 Workflow Wins Under $2k/month](https://www.zetsapp.com/blogs/ai-automation-small-business-workflows)
+- [Building a Free-Zone-Ready SaaS in the UAE](https://www.zetsapp.com/blogs/saas-in-uae-free-zone-legal-guide)
+- [AI Agents vs RAG vs Fine-Tuning: A Decision Framework for CTOs](https://www.zetsapp.com/blogs/ai-agents-vs-rag-vs-fine-tuning-decision-framework)
+- [How Much Does Custom Software Development Cost in the US in 2026?](https://www.zetsapp.com/blogs/custom-software-development-cost-usa-2026)
 
 ## Contact
 - Email: info@zetsapp.com

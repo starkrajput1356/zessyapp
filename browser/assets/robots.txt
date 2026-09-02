@@ -47,6 +47,14 @@ User-agent: Googlebot
 Allow: /
 Crawl-delay: 1
 
+# ---- Google News / Discover ----
+User-agent: Googlebot-News
+Allow: /
+Allow: /news/
+
+User-agent: Googlebot-Image
+Allow: /
+
 # =========================================
 # Bing Specific Rules
 # =========================================
@@ -100,6 +108,11 @@ User-agent: SemrushBot
 Crawl-delay: 10
 
 # =========================================
-# Sitemap Location
+# Sitemap Locations
 # =========================================
+# Static pages, services, software, tools, blog
 Sitemap: https://www.zetsapp.com/sitemap.xml
+# Google News sitemap - articles published in the last 48h
+Sitemap: https://www.zetsapp.com/news-sitemap.xml
+# Full news archive with image annotations
+Sitemap: https://www.zetsapp.com/news-articles-sitemap.xml
