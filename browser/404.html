@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, follow">
+<title>Page not found (404) — ZetsApp</title>
+<style>
+  :root{--bg:#f4f6f8;--card:#fff;--ink:#0b1220;--ink2:#46536b;--ink3:#78859b;--line:rgba(11,18,32,.10)}
+  @media (prefers-color-scheme:dark){
+    :root{--bg:#070a10;--card:#10151f;--ink:#f2f5f9;--ink2:#a9b4c6;--ink3:#7c889d;--line:rgba(255,255,255,.10)}
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:2rem;
+    background:var(--bg);color:var(--ink);
+    font-family:'Plus Jakarta Sans',system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    -webkit-font-smoothing:antialiased}
+  .w{max-width:600px;text-align:center;position:relative}
+  .w::before{content:'';position:absolute;width:460px;height:460px;top:-200px;left:50%;
+    transform:translateX(-50%);border-radius:50%;filter:blur(110px);opacity:.5;z-index:0;
+    background:radial-gradient(circle,rgba(8,145,178,.28),transparent 70%)}
+  .i{position:relative;z-index:1}
+  .n{font-size:clamp(6rem,20vw,11rem);font-weight:800;line-height:.85;letter-spacing:-.06em;opacity:.08}
+  h1{font-size:clamp(1.7rem,5vw,2.5rem);font-weight:800;letter-spacing:-.035em;margin:-.3em 0 .9rem}
+  p{color:var(--ink2);line-height:1.65;margin:0 auto 2rem;max-width:44ch}
+  .b{display:inline-flex;gap:10px;flex-wrap:wrap;justify-content:center}
+  a{display:inline-block;padding:11px 22px;border-radius:10px;text-decoration:none;
+    font-weight:600;font-size:.93rem;border:1px solid transparent;transition:transform .2s}
+  a:hover{transform:translateY(-2px)}
+  .p{background:var(--ink);color:var(--bg)}
+  .g{background:var(--card);color:var(--ink2);border-color:var(--line)}
+</style>
+</head>
+<body>
+  <div class="w"><div class="i">
+    <div class="n">404</div>
+    <h1>This page took a wrong turn.</h1>
+    <p>The page you were after doesn't exist, was moved, or is no longer published.</p>
+    <div class="b">
+      <a class="p" href="/">Go to homepage</a>
+      <a class="g" href="/news">Latest news</a>
+      <a class="g" href="/tools">Free tools</a>
+    </div>
+  </div></div>
+</body>
+</html>

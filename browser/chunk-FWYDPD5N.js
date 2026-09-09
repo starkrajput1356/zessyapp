@@ -1,0 +1,1 @@
+var n="https://www.zetsapp.com";function r(o){let t=o?.location?.origin;return!t||!/^https?:\/\//i.test(t)||/^https?:\/\/(localhost|127\.0\.0\.1|0\.0\.0\.0)(:\d+)?$/i.test(t)?n:t.replace(/\/$/,"")}export{r as a};
