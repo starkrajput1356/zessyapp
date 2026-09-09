@@ -1851,6 +1851,12 @@
 
   <!-- newsarticles:start -->
   <url>
+    <loc>https://www.zetsapp.com/news/startups-funding/uber-invests-carrum-fleet-operator-valuation</loc>
+    <lastmod>2026-09-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.zetsapp.com/news/rd-breakthroughs/portable-power-thermal-ceiling</loc>
     <lastmod>2026-09-09</lastmod>
     <changefreq>weekly</changefreq>
@@ -2140,12 +2146,6 @@
   </url>
   <url>
     <loc>https://www.zetsapp.com/news/startups-funding/travis-kalanick-atoms-robotaxi-business</loc>
-    <lastmod>2026-09-06</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.zetsapp.com/news/ai-model-launches/openai-scientist-warns-advanced-ai-safeguards</loc>
     <lastmod>2026-09-06</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
