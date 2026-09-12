@@ -11,7 +11,20 @@
   <meta name="keywords" content="custom software development, AI solutions, SaaS products, software development company, AI services, web app development, business software, hire developers, machine learning services, enterprise software, robotics process automation, VR development, AR solutions, IoT integration">
   <meta name="author" content="ZetsApp">
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-  <meta name="theme-color" content="#06b6d4">
+  <meta name="theme-color" content="#000000">
+  <!-- Apply the saved theme BEFORE first paint. ThemeService only adds .dark-theme once
+       Angular boots, so without this the :root (light) palette - a cyan --bg-primary
+       gradient - flashed on every load, most visibly on mobile. Dark is the default. -->
+  <script>
+    (function () {
+      var dark = true;
+      try { dark = localStorage.getItem('theme') !== 'light'; } catch (e) {}
+      document.documentElement.classList.add(dark ? 'dark-theme' : 'light-theme');
+    })();
+  </script>
+  <style>
+    html.dark-theme, html.dark-theme body { background-color: #000; }
+  </style>
   <!-- No static canonical link is declared here, deliberately.
        This file is the SPA shell Vercel serves for EVERY unmatched route (see the
        catch-all rewrite in vercel.json), so a hardcoded homepage canonical was
@@ -123,5 +136,5 @@
 <body><script type="text/javascript" id="ng-event-dispatch-contract">(()=>{function p(t,n,r,o,e,i,f,m){return{eventType:t,event:n,targetElement:r,eic:o,timeStamp:e,eia:i,eirp:f,eiack:m}}function u(t){let n=[],r=e=>{n.push(e)};return{c:t,q:n,et:[],etc:[],d:r,h:e=>{r(p(e.type,e,e.target,t,Date.now()))}}}function s(t,n,r){for(let o=0;o<n.length;o++){let e=n[o];(r?t.etc:t.et).push(e),t.c.addEventListener(e,t.h,r)}}function c(t,n,r,o,e=window){let i=u(t);e._ejsas||(e._ejsas={}),e._ejsas[n]=i,s(i,r),s(i,o,!0)}window.__jsaction_bootstrap=c;})();
 </script>
   <app-root></app-root>
-<link rel="modulepreload" href="chunk-TRA324FQ.js"><link rel="modulepreload" href="chunk-XAIUWUPA.js"><link rel="modulepreload" href="chunk-PG2R3HLK.js"><link rel="modulepreload" href="chunk-M57CFYPR.js"><link rel="modulepreload" href="chunk-2H2AJJ2A.js"><link rel="modulepreload" href="chunk-FWYDPD5N.js"><link rel="modulepreload" href="chunk-TDXDT66D.js"><link rel="modulepreload" href="chunk-ECEEZNUF.js"><link rel="modulepreload" href="chunk-EQDQRRRY.js"><script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-UW3JSH7N.js" type="module"></script></body>
+<link rel="modulepreload" href="chunk-TRA324FQ.js"><link rel="modulepreload" href="chunk-XAIUWUPA.js"><link rel="modulepreload" href="chunk-UT4SSP3Z.js"><link rel="modulepreload" href="chunk-M57CFYPR.js"><link rel="modulepreload" href="chunk-2H2AJJ2A.js"><link rel="modulepreload" href="chunk-FWYDPD5N.js"><link rel="modulepreload" href="chunk-TDXDT66D.js"><link rel="modulepreload" href="chunk-ECEEZNUF.js"><link rel="modulepreload" href="chunk-EQDQRRRY.js"><script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-CFWBVJGW.js" type="module"></script></body>
 </html>
