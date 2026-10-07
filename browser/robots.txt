@@ -25,9 +25,7 @@ Disallow: /*?utm_campaign=*
 Disallow: /*?source=*
 Disallow: /*?preview=*
 
-# ---- Block Contact Route from being over-indexed ----
-# (Contact page links used as placeholder in nav - avoid duplicate indexing)
-Disallow: /home/contact$
+# NOTE: /home/contact is the canonical lead page — it must stay crawlable.
 
 # ---- Allow Static Assets ----
 Allow: /assets/
@@ -43,9 +41,9 @@ Allow: /*.ico
 # =========================================
 # Google Specific Rules
 # =========================================
-User-agent: Googlebot
-Allow: /
-Crawl-delay: 1
+# Googlebot/Bingbot deliberately have NO group of their own: a crawler obeys only
+# the most specific group that names it, so a "User-agent: Googlebot / Allow: /"
+# group silently cancelled every Disallow above (admin, api, utm params) for Google.
 
 # ---- Google News / Discover ----
 User-agent: Googlebot-News
@@ -58,9 +56,6 @@ Allow: /
 # =========================================
 # Bing Specific Rules
 # =========================================
-User-agent: Bingbot
-Allow: /
-Crawl-delay: 1
 
 # =========================================
 # AI / GEO Crawlers (allow for AI Overviews, ChatGPT, Perplexity, Claude)

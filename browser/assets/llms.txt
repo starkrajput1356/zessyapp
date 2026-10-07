@@ -12,6 +12,18 @@ ZetsApp helps businesses **build**, **buy**, and **compare** software:
 ## About
 - [About ZetsApp](https://www.zetsapp.com/about): Who we are, how we ship, and where we work — company positioning, engineering process, and compliance posture (GDPR, HIPAA, SOC 2).
 
+## Featured ZetsApp software (AI & operations, set up for your business)
+- [ZetDesk AI Receptionist](https://www.zetsapp.com/software/ai-receptionist): 24/7 AI phone receptionist that answers calls, books appointments, qualifies leads and sends call summaries.
+- [ZetAnswer AI Call Assistant](https://www.zetsapp.com/software/ai-call-answering-assistant): answers your mobile when you are busy, driving or on-site; missed-call text-back for contractors and solo owners.
+- [ZetMaint CMMS](https://www.zetsapp.com/software/cmms-software): work orders, preventive maintenance scheduling (calendar + run-hours), assets, spare parts, offline technician app.
+- [FieldOps Pro — Field Service Management](https://www.zetsapp.com/software/fieldops-pro): technician scheduling, AI dispatch, quotes, invoices and on-site payments.
+- [ZetBook AI Appointment Booking](https://www.zetsapp.com/software/ai-appointment-booking): bookings by phone, website chat and WhatsApp with reminders and waitlists.
+- [ZetChat WhatsApp AI Chatbot](https://www.zetsapp.com/software/whatsapp-ai-chatbot): official WhatsApp Business API chatbot for sales, support and bookings.
+- [ChatPilot — AI Chatbot for Websites](https://www.zetsapp.com/software/chatpilot): chatbot trained on your own content with cited answers and lead capture.
+- [ZetVoice AI Voice Agent](https://www.zetsapp.com/software/zetvoice-ai): outbound/inbound AI calls for speed-to-lead, qualification, reminders and support.
+- [ZetFollow Lead Follow-Up Automation](https://www.zetsapp.com/software/ai-lead-follow-up-automation): instant multi-channel lead response and nurturing.
+- [RelateCRM — CRM for Small Business](https://www.zetsapp.com/software/relate-crm): simple pipeline CRM with auto-logged calls, email and WhatsApp.
+
 ## Services
 - [All Services](https://www.zetsapp.com/services): Overview of every ZetsApp development service.
 - [Custom Software Development](https://www.zetsapp.com/services/custom-software-development): Bespoke software built around unique business workflows.
@@ -26,7 +38,7 @@ ZetsApp helps businesses **build**, **buy**, and **compare** software:
 - [Hire Developers in Dubai](https://www.zetsapp.com/services/hire-developers-dubai): Full-stack, AI, RAG, and mobile engineers for UAE clients.
 - [Hire Developers in the UK](https://www.zetsapp.com/services/hire-developers-uk): GDPR-safe, IR35-friendly developers for UK and EU clients.
 - [Hire Developers in the USA](https://www.zetsapp.com/services/hire-developers-usa): HIPAA / SOC 2-aware developers for US clients with USD invoicing.
-- [Contact / Hire Us](https://www.zetsapp.com/home/contact): Start a project or request a quote.
+- [Contact / Hire Us](https://www.zetsapp.com/contact): Start a project or request a quote.
 
 ## Regional Presence
 - [Software Development in Dubai / UAE](https://www.zetsapp.com/locations/dubai): DIFC / DMCC / IFZA-friendly, UAE-hour delivery, AED or USD invoicing.
@@ -40,14 +52,14 @@ ZetsApp helps businesses **build**, **buy**, and **compare** software:
 - [CRM Software](https://www.zetsapp.com/software?category=crm)
 - [ERP Software](https://www.zetsapp.com/software?category=erp): Including Volaxin maritime ERP and ChartExec chartering.
 - [Education Software](https://www.zetsapp.com/software?category=education): Including Scholaris AI School ERP.
-- [Web Apps](https://www.zetsapp.com/home/web-apps)
-- [Mobile Apps](https://www.zetsapp.com/home/mobile-apps)
+- [Web Apps](https://www.zetsapp.com/web-apps)
+- [Mobile Apps](https://www.zetsapp.com/mobile-apps)
 
 ## Free Tools
 - [All Tools](https://www.zetsapp.com/tools): Calculators and utilities across finance, real estate, healthcare, construction, AI, and developer tools.
 
 ## Engineering Blog
-- [Blog](https://www.zetsapp.com/home/blogs): Deep technical guides on AI, LLMs, system design, databases, networking, and software architecture.
+- [Blog](https://www.zetsapp.com/blogs): Deep technical guides on AI, LLMs, system design, databases, networking, and software architecture.
 - [RAG vs Fine-Tuning: Which Is Right for Your Enterprise LLM App?](https://www.zetsapp.com/blogs/rag-vs-fine-tuning-enterprise-llm)
 - [Custom Software Development Cost in Dubai (2026 Guide)](https://www.zetsapp.com/blogs/custom-software-development-cost-dubai-2026)
 - [GDPR-Compliant AI Development: A Practitioner's Checklist for EU Teams](https://www.zetsapp.com/blogs/gdpr-compliant-ai-development-checklist)

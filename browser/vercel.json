@@ -1,5 +1,28 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    { "source": "/home", "destination": "/", "permanent": true },
+    { "source": "/home/blogs/:slug", "destination": "/blog/:slug", "permanent": true },
+    { "source": "/home/:path*", "destination": "/:path*", "permanent": true },
+    { "source": "/blogs/:slug", "destination": "/blog/:slug", "permanent": true },
+    { "source": "/contact-us", "destination": "/contact", "permanent": true },
+    { "source": "/blog/how-gpus-actually-work-the-nvidia-ga102-architecture-decoded-inside-the-rtx-3090-zetsapp", "destination": "/blog/how-gpus-actually-work-the-nvidia-ga102-architecture-decoded-inside-the-rtx-3090", "permanent": true },
+    { "source": "/blog/vector-database-expert-guide-hnsw-rag-the-ai-data-layer-zetsapp-1", "destination": "/blog/vector-database-expert-guide-hnsw-rag-the-ai-data-layer", "permanent": true },
+    { "source": "/blog/:slug(.*)-zetsapp-:n(\\d+)", "destination": "/blog/:slug", "permanent": true },
+    { "source": "/blog/:slug(.*)-zetsapp", "destination": "/blog/:slug", "permanent": true },
+    { "source": "/solutions", "destination": "/software", "permanent": true },
+    { "source": "/solutions/ai-voice-agent", "destination": "/software/zetvoice-ai", "permanent": true },
+    { "source": "/solutions/field-service-management-software", "destination": "/software/fieldops-pro", "permanent": true },
+    { "source": "/solutions/ai-chatbot-for-website", "destination": "/software/chatpilot", "permanent": true },
+    { "source": "/solutions/ai-crm-for-small-business", "destination": "/software/relate-crm", "permanent": true },
+    { "source": "/solutions/:slug", "destination": "/software/:slug", "permanent": true },
+    {
+      "source": "/software",
+      "has": [{ "type": "query", "key": "category", "value": "(?<cat>[a-z0-9-]+)" }],
+      "destination": "/software/category/:cat",
+      "permanent": true
+    }
+  ],
   "rewrites": [
     {
       "source": "/news-sitemap.xml",
@@ -17,7 +40,7 @@
       "source": "/de876a26fce64d7aab3bf728e8849649.txt",
       "destination": "https://zetsy.runasp.net/api/news/indexnow-key.txt"
     },
-    { "source": "/(.*)", "destination": "/index.html" }
+    { "source": "/(.*)", "destination": "/index.csr.html" }
   ],
   "headers": [
     {
