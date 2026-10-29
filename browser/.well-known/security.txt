@@ -1,0 +1,5 @@
+Contact: mailto:info@zetsapp.com
+Contact: https://www.zetsapp.com/contact
+Expires: 2027-10-27T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://www.zetsapp.com/.well-known/security.txt

@@ -1,6 +1,6 @@
 # =========================================
 # ZetsApp.com - robots.txt
-# Last Updated: 2026-03-31
+# Last Updated: 2026-10-18
 # =========================================
 
 # Allow all search engine crawlers
@@ -10,9 +10,9 @@ Allow: /
 # ---- Block Private / Auth Pages ----
 Disallow: /dashboard/
 Disallow: /profile/
-Disallow: /login/
+Disallow: /login
 Disallow: /register/
-Disallow: /admin/
+Disallow: /admin
 Disallow: /account/
 Disallow: /settings/
 Disallow: /api/
@@ -72,10 +72,19 @@ Allow: /
 User-agent: ClaudeBot
 Allow: /
 
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
 User-agent: Claude-Web
 Allow: /
 
 User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
 Allow: /
 
 User-agent: Google-Extended

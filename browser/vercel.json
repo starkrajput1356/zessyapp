@@ -1,24 +1,90 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "redirects": [
-    { "source": "/home", "destination": "/", "permanent": true },
-    { "source": "/home/blogs/:slug", "destination": "/blog/:slug", "permanent": true },
-    { "source": "/home/:path*", "destination": "/:path*", "permanent": true },
-    { "source": "/blogs/:slug", "destination": "/blog/:slug", "permanent": true },
-    { "source": "/contact-us", "destination": "/contact", "permanent": true },
-    { "source": "/blog/how-gpus-actually-work-the-nvidia-ga102-architecture-decoded-inside-the-rtx-3090-zetsapp", "destination": "/blog/how-gpus-actually-work-the-nvidia-ga102-architecture-decoded-inside-the-rtx-3090", "permanent": true },
-    { "source": "/blog/vector-database-expert-guide-hnsw-rag-the-ai-data-layer-zetsapp-1", "destination": "/blog/vector-database-expert-guide-hnsw-rag-the-ai-data-layer", "permanent": true },
-    { "source": "/blog/:slug(.*)-zetsapp-:n(\\d+)", "destination": "/blog/:slug", "permanent": true },
-    { "source": "/blog/:slug(.*)-zetsapp", "destination": "/blog/:slug", "permanent": true },
-    { "source": "/solutions", "destination": "/software", "permanent": true },
-    { "source": "/solutions/ai-voice-agent", "destination": "/software/zetvoice-ai", "permanent": true },
-    { "source": "/solutions/field-service-management-software", "destination": "/software/fieldops-pro", "permanent": true },
-    { "source": "/solutions/ai-chatbot-for-website", "destination": "/software/chatpilot", "permanent": true },
-    { "source": "/solutions/ai-crm-for-small-business", "destination": "/software/relate-crm", "permanent": true },
-    { "source": "/solutions/:slug", "destination": "/software/:slug", "permanent": true },
+    {
+      "source": "/home",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/home/blogs/:slug",
+      "destination": "/blog/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/home/:path*",
+      "destination": "/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/blogs/:slug",
+      "destination": "/blog/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/contact-us",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/blog/how-gpus-actually-work-the-nvidia-ga102-architecture-decoded-inside-the-rtx-3090-zetsapp",
+      "destination": "/blog/how-gpus-actually-work-the-nvidia-ga102-architecture-decoded-inside-the-rtx-3090",
+      "permanent": true
+    },
+    {
+      "source": "/blog/vector-database-expert-guide-hnsw-rag-the-ai-data-layer-zetsapp-1",
+      "destination": "/blog/vector-database-expert-guide-hnsw-rag-the-ai-data-layer",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:slug(.*)-zetsapp-:n(\\d+)",
+      "destination": "/blog/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:slug(.*)-zetsapp",
+      "destination": "/blog/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/solutions",
+      "destination": "/software",
+      "permanent": true
+    },
+    {
+      "source": "/solutions/ai-voice-agent",
+      "destination": "/software/zetvoice-ai",
+      "permanent": true
+    },
+    {
+      "source": "/solutions/field-service-management-software",
+      "destination": "/software/fieldops-pro",
+      "permanent": true
+    },
+    {
+      "source": "/solutions/ai-chatbot-for-website",
+      "destination": "/software/chatpilot",
+      "permanent": true
+    },
+    {
+      "source": "/solutions/ai-crm-for-small-business",
+      "destination": "/software/relate-crm",
+      "permanent": true
+    },
+    {
+      "source": "/solutions/:slug",
+      "destination": "/software/:slug",
+      "permanent": true
+    },
     {
       "source": "/software",
-      "has": [{ "type": "query", "key": "category", "value": "(?<cat>[a-z0-9-]+)" }],
+      "has": [
+        {
+          "type": "query",
+          "key": "category",
+          "value": "(?<cat>[a-z0-9-]+)"
+        }
+      ],
       "destination": "/software/category/:cat",
       "permanent": true
     }
@@ -40,33 +106,131 @@
       "source": "/de876a26fce64d7aab3bf728e8849649.txt",
       "destination": "https://zetsy.runasp.net/api/news/indexnow-key.txt"
     },
-    { "source": "/(.*)", "destination": "/index.csr.html" }
+    {
+      "source": "/(.*)",
+      "destination": "/index.csr.html"
+    }
   ],
   "headers": [
     {
+      "source": "/.well-known/security.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        }
+      ]
+    },
+    {
       "source": "/news-sitemap.xml",
       "headers": [
-        { "key": "Content-Type", "value": "application/xml; charset=utf-8" },
-        { "key": "Cache-Control", "value": "public, max-age=600, s-maxage=600" }
+        {
+          "key": "Content-Type",
+          "value": "application/xml; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=600, s-maxage=600"
+        }
       ]
     },
     {
       "source": "/news-articles-sitemap.xml",
       "headers": [
-        { "key": "Content-Type", "value": "application/xml; charset=utf-8" },
-        { "key": "Cache-Control", "value": "public, max-age=1800, s-maxage=1800" }
+        {
+          "key": "Content-Type",
+          "value": "application/xml; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=1800, s-maxage=1800"
+        }
       ]
     },
     {
       "source": "/news/feed.xml",
       "headers": [
-        { "key": "Content-Type", "value": "application/rss+xml; charset=utf-8" },
-        { "key": "Cache-Control", "value": "public, max-age=900, s-maxage=900" }
+        {
+          "key": "Content-Type",
+          "value": "application/rss+xml; charset=utf-8"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=900, s-maxage=900"
+        }
       ]
     },
     {
       "source": "/de876a26fce64d7aab3bf728e8849649.txt",
-      "headers": [{ "key": "Content-Type", "value": "text/plain; charset=utf-8" }]
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain; charset=utf-8"
+        }
+      ]
+    },
+    {
+      "source": "/(chunk|main|polyfills|styles)-([A-Za-z0-9]+)\\.(js|css)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=604800, stale-while-revalidate=86400"
+        }
+      ]
+    },
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Content-Security-Policy",
+          "value": "default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://cdnjs.cloudflare.com; font-src 'self' data: https://fonts.gstatic.com https://cdnjs.cloudflare.com; img-src 'self' data: blob: https:; media-src 'self' blob: https:; connect-src 'self' https://zetsy.runasp.net https://rdp.zetsapp.com https://api.emailjs.com https://api.allorigins.win https://api.anthropic.com https://raw.githubusercontent.com https://cdn.jsdelivr.net https://cdnjs.cloudflare.com; frame-src 'self' blob: https://www.youtube.com https://www.youtube-nocookie.com https://www.google.com; worker-src 'self' blob:; manifest-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'; upgrade-insecure-requests"
+        },
+        {
+          "key": "Strict-Transport-Security",
+          "value": "max-age=63072000; includeSubDomains; preload"
+        },
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        },
+        {
+          "key": "Permissions-Policy",
+          "value": "camera=(), microphone=(), geolocation=(), payment=(), usb=(), serial=(), bluetooth=(), magnetometer=(), browsing-topics=(), interest-cohort=(), gyroscope=(self \"https://www.youtube.com\"), accelerometer=(self \"https://www.youtube.com\")"
+        },
+        {
+          "key": "Cross-Origin-Opener-Policy",
+          "value": "same-origin-allow-popups"
+        },
+        {
+          "key": "Cross-Origin-Resource-Policy",
+          "value": "same-site"
+        },
+        {
+          "key": "X-Permitted-Cross-Domain-Policies",
+          "value": "none"
+        },
+        {
+          "key": "X-DNS-Prefetch-Control",
+          "value": "on"
+        }
+      ]
     }
   ]
 }
