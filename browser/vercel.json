@@ -107,7 +107,15 @@
       "destination": "https://zetsy.runasp.net/api/news/indexnow-key.txt"
     },
     {
-      "source": "/(.*)",
+      "source": "/:page(about|answers|blogs|contact|glossary|locations|mobile-apps|web-apps|privacy-policy|security|services|software|solutions|terms-of-service|tools|news|login|admin)",
+      "destination": "/index.csr.html"
+    },
+    {
+      "source": "/apps/:kind(mobile|web)",
+      "destination": "/index.csr.html"
+    },
+    {
+      "source": "/:section(answers|blog|blogs|glossary|locations|services|software|solutions|tools|news|admin)/:rest*",
       "destination": "/index.csr.html"
     }
   ],

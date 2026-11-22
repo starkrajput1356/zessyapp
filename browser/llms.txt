@@ -12,6 +12,20 @@ ZetsApp helps businesses **build**, **buy**, and **compare** software:
 ## About
 - [About ZetsApp](https://www.zetsapp.com/about): Who we are, how we ship, and where we work — company positioning, engineering process, and compliance posture (GDPR, HIPAA, SOC 2).
 
+## ZetsApp flagship platforms (built and run by ZetsApp engineers)
+- [EduVista AI School Suite](https://www.zetsapp.com/software/educare-school-erp): school ERP with AI 360 learning; admissions, fees with UPI, QR-verified certificates, mark entry, role dashboards for admin, parent, student and teacher, AI lesson plans and question papers.
+- [Orbitra Logistics Platform](https://www.zetsapp.com/software/orbitra-logistics-platform): freight forwarding and 3PL platform with online quotes, customer and supplier portals, PO booking, control tower, alerts and a customer mobile app.
+- [Salesvia CRM](https://www.zetsapp.com/software/salesvia-crm): sales CRM with pipeline, workflow automation, owner notifications, bulk actions, role-based visibility and audit log.
+- [Synerva ERP](https://www.zetsapp.com/software/synerva-erp): modular ERP and SAP alternative for mid-size businesses: finance, procurement, inventory, sales, HR, approvals and an AI assistant.
+- [Lumora Browser](https://www.zetsapp.com/software/lumora-browser): private Chromium-based desktop browser with built-in ad and tracker blocking; white-label and kiosk builds.
+- [Codexion AI Coding Agent](https://www.zetsapp.com/software/codexion-ai-coding-agent): Windows AI coding agent that plans, edits with inline diffs and runs tests; works with Claude, GPT, Gemini or local models.
+- [Constrava Construction ERP](https://www.zetsapp.com/software/constrava-construction-erp): construction ERP with daily progress reports, GPS attendance, materials, BOQ cost control, quality/NCRs and an AI assistant.
+- [Ledgera Inventory & Billing](https://www.zetsapp.com/software/ledgera-inventory-billing): GST-ready inventory and billing software with multi-location stock, WhatsApp invoices and an AI assistant.
+- [Archiva Document Management](https://www.zetsapp.com/software/archiva-document-management): AI document management with workflow approvals, expiry reminders, compliance matrix and a mobile app.
+- [Workvance Talent Platform](https://www.zetsapp.com/software/workvance-talent-platform): job board plus freelance marketplace (gigs, projects, bids, escrow orders) with admin panel and mobile app.
+- [Linguzo Language Coach](https://www.zetsapp.com/software/linguzo-language-learning-app): offline language learning app with A1-B2 courses, pronunciation scoring and a grammar coach.
+- [Deliverix Email Warmup](https://www.zetsapp.com/software/deliverix-email-warmup): self-hostable email warmup with a date-anchored schedule, spam rescue and safe behaviour after downtime.
+
 ## Featured ZetsApp software (AI & operations, set up for your business)
 - [ZetDesk AI Receptionist](https://www.zetsapp.com/software/ai-receptionist): 24/7 AI phone receptionist that answers calls, books appointments, qualifies leads and sends call summaries.
 - [ZetAnswer AI Call Assistant](https://www.zetsapp.com/software/ai-call-answering-assistant): answers your mobile when you are busy, driving or on-site; missed-call text-back for contractors and solo owners.
@@ -30,6 +44,16 @@ ZetsApp helps businesses **build**, **buy**, and **compare** software:
 - [AI Development Services](https://www.zetsapp.com/services/ai-development): LLM apps, AI agents, RAG pipelines, and machine learning.
 - [AI Automation Services](https://www.zetsapp.com/services/ai-automation): Workflow automation, AI agents, and business process automation.
 - [RAG Development](https://www.zetsapp.com/services/rag-development): Custom Retrieval-Augmented Generation systems with GDPR-safe deployment.
+- [AI Agent Development](https://www.zetsapp.com/services/ai-agent-development): Agentic and multi-agent systems with guardrails, approvals and evaluation.
+- [MCP Server Development](https://www.zetsapp.com/services/mcp-server-development): Secure Model Context Protocol servers connecting business systems to Claude, ChatGPT and agents.
+- [Voice AI Agent Development](https://www.zetsapp.com/services/voice-ai-agent-development): Phone and contact-centre voice agents with live handoff and CRM integration.
+- [Custom LLM & Fine-Tuning](https://www.zetsapp.com/services/custom-llm-development): Domain-specific models, fine-tuning, distillation and private deployment.
+- [AI Security & Governance](https://www.zetsapp.com/services/ai-security-governance): EU AI Act readiness, ISO/IEC 42001, NIST AI RMF and LLM red-teaming.
+- [Physical AI & Robotics Software](https://www.zetsapp.com/services/robotics-software-development): ROS 2, robot perception, simulation and fleet management.
+- [Computer Vision Development](https://www.zetsapp.com/services/computer-vision-development): Visual inspection, safety monitoring, OCR and edge vision.
+- [Data Engineering for AI](https://www.zetsapp.com/services/ai-data-engineering): AI-ready data, pipelines, vector and context layers.
+- [AI-Assisted Legacy Modernization](https://www.zetsapp.com/services/legacy-application-modernization): Migrating legacy .NET, VB6, PHP and Delphi apps with AI-assisted analysis and tests.
+- [Edge AI & IoT Development](https://www.zetsapp.com/services/edge-ai-iot-development): Industrial connectivity, on-device AI and predictive maintenance.
 - [Full-Stack Development](https://www.zetsapp.com/services/full-stack-development): End-to-end web and mobile engineering across MERN, MEAN, .NET, Django, Rails.
 - [Web App Development](https://www.zetsapp.com/services/web-app-development): Fast, SEO-friendly web applications.
 - [Website Development](https://www.zetsapp.com/services/website-development): Custom marketing and business websites.
