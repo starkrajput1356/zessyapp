@@ -2,6 +2,11 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "redirects": [
     {
+      "source": "/tools/:slug(color-palette-generator|qr-code-generator|portfolio-generator|bmi-calculator|medication-interaction-checker|app-health-risk-assessment|bp-tracker|mortgage-calculator|rental-calculator|affordability-calculator|stamp-duty-calculator|rent-vs-buy-calculator|compound-interest-calculator|sip-calculator|loan-calculator|gst-calculator|retirement-calculator|scientific-calculator|plagiarism-checker|legal-documents|business-registration|privacy-generator|cost-estimator|youtube-downloader|material-calculator|unit-converter|structural-load-calculator|soil-foundation-calculator|html-viewer|transformer-explainer|ai-workflow-builder|simple-analytics-dashboard|advanced-template-builder|onsite-construction-platform|docx-to-pdf|pdf-converter|text-extractor|file-converter|table-extractor|media-extractor)",
+      "destination": "/tools",
+      "permanent": true
+    },
+    {
       "source": "/home",
       "destination": "/",
       "permanent": true
@@ -107,7 +112,7 @@
       "destination": "https://zetsy.runasp.net/api/news/indexnow-key.txt"
     },
     {
-      "source": "/:page(about|answers|blogs|contact|glossary|locations|mobile-apps|web-apps|privacy-policy|security|services|software|solutions|terms-of-service|tools|news|login|admin)",
+      "source": "/:page(about|case-studies|partners|answers|blogs|contact|glossary|locations|mobile-apps|web-apps|privacy-policy|security|services|software|solutions|terms-of-service|tools|news|login|admin)",
       "destination": "/index.csr.html"
     },
     {
