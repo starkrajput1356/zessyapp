@@ -46,9 +46,8 @@ Allow: /*.ico
 # group silently cancelled every Disallow above (admin, api, utm params) for Google.
 
 # ---- Google News / Discover ----
-User-agent: Googlebot-News
-Allow: /
-Allow: /news/
+# News articles are noindex since 2026-11-23 (scaled-content risk); crawling stays allowed
+# so Google can see the noindex and drop the URLs.
 
 User-agent: Googlebot-Image
 Allow: /
@@ -116,7 +115,4 @@ Crawl-delay: 10
 # =========================================
 # Static pages, services, software, tools, blog
 Sitemap: https://www.zetsapp.com/sitemap.xml
-# Google News sitemap - articles published in the last 48h
-Sitemap: https://www.zetsapp.com/news-sitemap.xml
-# Full news archive with image annotations
-Sitemap: https://www.zetsapp.com/news-articles-sitemap.xml
+# News is noindex (2026-11-23), so its sitemaps are no longer advertised.

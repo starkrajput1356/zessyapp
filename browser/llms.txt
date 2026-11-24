@@ -59,6 +59,13 @@ ZetsApp helps businesses **build**, **buy**, and **compare** software:
 - [Website Development](https://www.zetsapp.com/services/website-development): Custom marketing and business websites.
 - [Mobile App Development](https://www.zetsapp.com/services/mobile-app-development): iOS and Android apps.
 - [SaaS Products](https://www.zetsapp.com/services/saas-products): Ready-to-deploy business software.
+- [Digital Marketing Services](https://www.zetsapp.com/services/digital-marketing-services): SEO, PPC, social media, email, content and reviews management, measured on leads.
+- [SEO Services](https://www.zetsapp.com/services/seo-services): Engineering-led technical SEO, Core Web Vitals, structured data, content and AI search (GEO) visibility.
+- [IT Staffing Services](https://www.zetsapp.com/services/it-staffing-services): Contract, contract-to-hire and direct hire tech talent, screened by working engineers.
+- [Recruitment Process Outsourcing (RPO)](https://www.zetsapp.com/services/recruitment-process-outsourcing): End-to-end, project or on-demand hiring run under the client's brand.
+- [Managed Service Provider (MSP)](https://www.zetsapp.com/services/managed-service-provider-msp): Contingent workforce programme: suppliers, rates, compliance, timesheets, VMS.
+- [Global Capability Center Setup](https://www.zetsapp.com/services/global-capability-center-setup): Build-operate-transfer offshore teams in India.
+- [Proposal Writing & RFP Response](https://www.zetsapp.com/services/proposal-writing-services): Compliance matrix, technical approach and designed submission-ready proposals.
 - [Hire Developers in Dubai](https://www.zetsapp.com/services/hire-developers-dubai): Full-stack, AI, RAG, and mobile engineers for UAE clients.
 - [Hire Developers in the UK](https://www.zetsapp.com/services/hire-developers-uk): GDPR-safe, IR35-friendly developers for UK and EU clients.
 - [Hire Developers in the USA](https://www.zetsapp.com/services/hire-developers-usa): HIPAA / SOC 2-aware developers for US clients with USD invoicing.
@@ -82,6 +89,19 @@ ZetsApp helps businesses **build**, **buy**, and **compare** software:
 ## Free Tools
 - [All Tools](https://www.zetsapp.com/tools): Calculators and utilities across finance, real estate, healthcare, construction, AI, and developer tools.
 - [Website Security Audit](https://www.zetsapp.com/tools/website-security-audit): Free passive scan of any website — TLS/SSL certificate, HSTS, Content-Security-Policy, clickjacking, cookies, CORS, mixed content, vulnerable JavaScript libraries, SPF, DMARC, CAA, DNSSEC and security.txt — graded A+ to F with a downloadable branded PDF report and server-specific fixes.
+
+## Buyer guides (2026)
+- [Best school management software in India: how to choose](https://www.zetsapp.com/blog/best-school-management-software-india)
+- [Logistics management platform: features and how to choose](https://www.zetsapp.com/blog/logistics-management-platform-guide)
+- [SAP alternatives for mid-size businesses](https://www.zetsapp.com/blog/sap-alternatives-for-mid-size-business)
+- [Construction ERP software: complete guide](https://www.zetsapp.com/blog/construction-erp-software-guide)
+- [GST billing and inventory software: how to choose](https://www.zetsapp.com/blog/gst-billing-and-inventory-software-how-to-choose)
+- [AI document management system: how it works](https://www.zetsapp.com/blog/ai-document-management-system-guide)
+- [How to warm up an email domain](https://www.zetsapp.com/blog/how-to-warm-up-email-domain)
+- [What is an AI coding agent?](https://www.zetsapp.com/blog/what-is-an-ai-coding-agent)
+- [CRM with workflow automation: what to automate first](https://www.zetsapp.com/blog/crm-with-workflow-automation-guide)
+- [How to build a job board and freelance marketplace](https://www.zetsapp.com/blog/how-to-build-job-board-and-freelance-marketplace)
+- [White-label browsers for business](https://www.zetsapp.com/blog/white-label-browser-for-business)
 
 ## Engineering Blog
 - [Blog](https://www.zetsapp.com/blogs): Deep technical guides on AI, LLMs, system design, databases, networking, and software architecture.
